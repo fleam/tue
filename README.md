@@ -2,7 +2,7 @@
 
 ## 环境
 
-### 系统 Ubuntu_2004.2021.825.0_x64
+### 系统 Ubuntu_2004.2021.825.0_x64 WSL
 
 ```
 sudo apt-get update
