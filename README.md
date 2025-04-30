@@ -12,3 +12,5 @@ sudo apt-get update
 sudo apt-get install libmysqlclient-dev
 
 ip route show | grep -i default | awk '{ print $3 }'
+
+todo: support debug
