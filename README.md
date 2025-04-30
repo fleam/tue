@@ -50,3 +50,4 @@ ip route show | grep -i default | awk '{ print $3 }'
 ## todo
 
 1. support debug
+2. log
