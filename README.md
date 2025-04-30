@@ -37,6 +37,8 @@ mysql_config --version
 ```
 ip route show | grep -i default | awk '{ print $3 }'
 ```
+
+### 目录结构
 ```
 /home/fleam/
 ├── cJSON/
