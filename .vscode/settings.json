@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "response_handler.h": "c",
+        "mongoose_event.h": "c",
+        "cjson.h": "c",
+        "mysql_connection_pool.h": "c"
+    }
+}

@@ -1,0 +1,41 @@
+### 获取所有 CPI 数据
+GET http://localhost:8000/api/cpi HTTP/1.1
+Content-Type: application/json
+
+### 添加 CPI 数据
+POST http://localhost:8000/api/cpi HTTP/1.1
+Content-Type: application/json
+
+{
+    "cpi": "123.45",
+    "date": "2024-01-01"
+}
+
+### 删除指定 ID 的 CPI 数据
+DELETE http://localhost:8000/api/cpi?id=1 HTTP/1.1
+Content-Type: application/json
+
+### 更新指定 ID 的 CPI 数据（更新 cpi 和 date 字段）
+PUT http://localhost:8000/api/cpi?id=1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "cpi": "125.67",
+    "date": "2024-02-01"
+}
+
+### 更新指定 ID 的 CPI 数据（仅更新 cpi 字段）
+PUT http://localhost:8000/api/cpi?id=1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "cpi": "127.89"
+}
+
+### 更新指定 ID 的 CPI 数据（仅更新 date 字段）
+PUT http://localhost:8000/api/cpi?id=1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "date": "2024-03-01"
+}
