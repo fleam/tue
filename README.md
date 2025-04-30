@@ -1,6 +1,12 @@
 # 使用纯 C 开发 RESTful API
 
-## cJSON（20250430接近v1.7.18）
+## 环境
+
+### 系统 
+
+*Ubuntu_2004.2021.825.0_x64*
+
+### cJSON（20250430接近v1.7.18）
 
 ```
 git clone https://github.com/DaveGamble/cJSON.git
@@ -12,13 +18,13 @@ make
 make install
 ```
 
-## mongoose（接近7.17）
+### mongoose（接近7.17）
 
 ```
 git clone https://github.com/cesanta/mongoose.git
 ```
 
-## mysqlclient 8.0.4
+### mysqlclient 8.0.4
 
 ```
 sudo apt-get update
@@ -26,7 +32,7 @@ sudo apt-get install libmysqlclient-dev
 mysql_config --version
 ```
 
-## wsl宿主机地址
+### wsl宿主机地址
 
 ```
 ip route show | grep -i default | awk '{ print $3 }'
