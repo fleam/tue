@@ -6,7 +6,7 @@
 
 *Ubuntu_2004.2021.825.0_x64*
 
-### cJSON（20250430接近v1.7.18）
+### cJSON（20250430下载master接近v1.7.18）
 
 ```
 git clone https://github.com/DaveGamble/cJSON.git
@@ -18,7 +18,7 @@ make
 make install
 ```
 
-### mongoose（接近7.17）
+### mongoose（20250430下载master接近7.17）
 
 ```
 git clone https://github.com/cesanta/mongoose.git
