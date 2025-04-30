@@ -2,9 +2,12 @@
 
 ## 环境
 
-### 系统 
+### 系统 Ubuntu_2004.2021.825.0_x64
 
-*Ubuntu_2004.2021.825.0_x64*
+```
+sudo apt-get update
+sudo apt install build-essential cmake git net-tools 
+```
 
 ### cJSON（20250430下载master接近v1.7.18）
 
@@ -27,7 +30,6 @@ git clone https://github.com/cesanta/mongoose.git
 ### mysqlclient 8.0.4
 
 ```
-sudo apt-get update
 sudo apt-get install libmysqlclient-dev
 mysql_config --version
 ```
