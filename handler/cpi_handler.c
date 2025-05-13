@@ -195,6 +195,12 @@ void handle_put_cpi(struct mg_connection *c, struct mg_http_message *hm, Connect
 // 主处理函数，根据 HTTP 方法分发请求
 void handle_cpi(struct mg_connection *c, struct mg_http_message *hm, ConnectionPool *pool) {
     struct mg_str method = hm->method;
+    struct mg_str head = hm->head;
+
+    printf("head %s %s\n","====================","start");
+    printf("%s\n",head.buf);
+    printf("head %s %s\n","====================","end");
+
     struct mg_str get = mg_str("GET");
     struct mg_str post = mg_str("POST");
     struct mg_str del = mg_str("DELETE");
